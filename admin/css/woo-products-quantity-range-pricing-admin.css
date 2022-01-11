@@ -1,0 +1,247 @@
+/**
+* All of the CSS for your admin-specific functionality should be
+* included in this file.
+*/
+
+/* Main Box CSS */
+.as-box {
+    width: 98%;
+    margin: 1%;
+}
+
+.as-box .as-label {
+    float: none;
+    margin: 0 3px;
+    font-weight: bold;
+}
+
+/*  */
+.product_data .enable_simple_product_wqrp label {
+    font-weight: bold;
+    margin: 10px;
+    float: none;
+    width: auto;
+    width: 49px;
+    height: 22px;
+}
+
+/* Heading Area CSS */
+.heading-area {
+    height: 30px;
+}
+
+.heading-area .add-quantity-range-price-field-btn {
+    float: right;
+    margin: 0 10px;
+}
+
+/* Table CSS */
+.postbox-container .as-box .as-table {
+    width: 100%;
+    padding: 0;
+    border-spacing: 0;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+}
+
+.postbox-container .as-box .as-table thead {
+    background: #eee;
+}
+
+.postbox-container .as-box .as-table thead td {
+    box-shadow: 0 0 1px #EEe;
+}
+
+.postbox-container .as-box .as-table tbody tr:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+.postbox-container .as-box .as-table tbody tr:nth-child(even) {
+    background: #ffffff;
+}
+
+.postbox-container .as-box .as-table td {
+    padding: 5px;
+    text-align: center;
+}
+
+.postbox-container .as-box .as-table tbody td select, .postbox-container .as-box .as-table tbody td input {
+    width: 100%;
+    min-width: 100%;
+}
+
+.postbox-container .as-box .as-table tbody td .delete-quantity {
+    padding: 0;
+    width: 30px;
+    color: #ff0000;
+    border: 1px solid rgba(255, 0, 0, 0.41);
+    background: rgba(255, 0, 0, 0.06);
+    box-shadow: 0 0 1px rgba(255, 0, 0, 0.47);
+}
+
+/* Setting Table CSS */
+.as_table_design {
+    width: 100%;
+}
+
+.as_table_design tr th {
+    text-align: left;
+    font-size: 15px;
+    background: #5FA2DC;
+    padding: 10px;
+    color: #fff;
+}
+
+.as_table_design tr th.sub-title {
+    background: #ddd;
+    color: #000;
+}
+
+.as_table_design tr td {
+    background: #fff;
+    padding: 10px;
+    width: 250px;
+}
+
+.as_table_design td select {
+    width: 100px;
+}
+
+.as_qrp_border_style, .as_border_style {
+    width: 100px;
+    float: left;
+}
+
+.wp-picker-container {
+    margin: 3px 0;
+}
+.wpqrp-form-table {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 1px #32373c;
+}
+.wpqrp-form-table  .as-table {
+    width: 100%;
+    padding: 0;
+    border-spacing: 0;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+}
+
+.wpqrp-form-table  .as-table thead {
+    background: #eee;
+}
+
+.wpqrp-form-table  .as-table thead td {
+    box-shadow: 0 0 1px #EEe;
+}
+
+.wpqrp-form-table .as-table tbody tr:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+.wpqrp-form-table  .as-table tbody tr:nth-child(even) {
+    background: #ffffff;
+}
+
+.wpqrp-form-table .as-table td {
+    padding: 5px;
+    text-align: center;
+    width: 200px;
+}
+
+.wpqrp-form-table .as-table tbody td select, .wpqrp-form-table  .as-table tbody td input {
+    width: 100%;
+    min-width: 100%;
+}
+
+.wpqrp-form-table  .was-table tbody td .delete-quantity,.wpqrp-form-table  .as-table tbody td .delete-quantity,.wpqrp-form-table .as-table tbody td .delete-quantity  {
+    padding: 0;
+    width: 30px;
+    color: #ff0000;
+    border: 1px solid rgba(255, 0, 0, 0.41);
+    background: rgba(255, 0, 0, 0.06);
+    box-shadow: 0 0 1px rgba(255, 0, 0, 0.47);
+}
+/* switch sss */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 49px;
+    height: 22px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    display: none;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #F44336;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #4CAF50;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #4CAF50;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.wqrp-red {
+    color: #ff0000;
+}
+
+.wqrp-green {
+    color: #008000;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.wqrp-note p {
+    margin: 0;
+}
+
+.product_data .wpqrp-select-role {
+    width: 150px;
+}
+.as-table .wpqrp-select-role .select2-choices .select2-search-choice {
+    padding: 2px 6px 3px 20px;
+}
+.wpqrp-select-role .select2-search-choice-close {
+    top: 3px;
+}

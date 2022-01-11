@@ -1,0 +1,24 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+table.variation_quantity_table {
+    box-shadow: 0 0 5px #ddd;
+}
+
+table.variation_quantity_table thead th {
+    background: #ddd;
+}
+
+table.variation_quantity_table th, table.variation_quantity_table td {
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+table.variation_quantity_table tbody tr:nth-child(odd) {
+    background: #f5f5f5;
+}
+
+table.variation_quantity_table tbody tr:nth-child(even) {
+    background: #ffffff;
+}
